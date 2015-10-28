@@ -1,5 +1,11 @@
 #!/bin/bash
 
+#BACKUP CRIADO POR: Matheus Fidelis 
+#Github - https://github.com/msfidelis/
+#Twitter - @fidelisauro 
+#Blog - http://www.nanoshots.com.br
+
+
 #SCRIPT DE BACKUP FULL REALIZADO DO FILESERVER
 
 #VARIAVEIS
