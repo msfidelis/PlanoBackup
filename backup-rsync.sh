@@ -10,7 +10,7 @@
 
 #VARIAVEIS
 INICIO=`date +%d/%m/%Y-%H:%M:%S`
-LOG=/var/log/backups/full/`date +%Y-%m-%d`_log-backup-rsynctxt
+LOG=/var/log/backups/full/`date +%Y-%m-%d`_log-backup-rsync.txt
 
 #DEFINA AQUI O DIRETÓRIO QUE SERÁ EFETUADO O BACKUP
 ORIGEM=/mnt/dados/
@@ -26,7 +26,6 @@ echo " Sincronização iniciada em $INICIO" >> $LOG
 
 
 #CRIA O BACKUP
-
 rsync -Cravzp $ORIGEM $DESTINO >> $LOG
 
 
