@@ -10,13 +10,13 @@
 
 #VARIAVEIS
 INICIO=`date +%d/%m/%Y-%H:%M:%S`
-LOG=/var/log/backups/full/`date +%Y-%m-%d`_log-backup-rsync.txt
+LOG=/var/log/backups/full/`date +%Y-%m-%d`_log-backup-rsynctxt
 
 #DEFINA AQUI O DIRETÓRIO QUE SERÁ EFETUADO O BACKUP
 ORIGEM=/mnt/dados/
 
 #DEFINA AQUI O DIRETÓRIO ONDE O ARQUIVO SERÁ GRAVADO JUNTO COM O SEU NOME
-DESTINO=/mnt/hdexterno/backup-`date +%Y-%m-%d`.tar.gz
+DESTINO=/mnt/hdexterno/
 
 #CRIA O ARQUIVO DE LOGS
 echo " " >> $LOG
