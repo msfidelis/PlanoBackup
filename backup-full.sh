@@ -22,7 +22,7 @@ DESTINO=/mnt/hdexterno/backup-`date +%Y-%m-%d`.tar.gz
 echo " " >> $LOG
 echo " " >> $LOG
 echo "|-----------------------------------------------" >> $LOG
-echo " Sincronização iniciada em $INICIO" >> $LOG
+echo " Backup iniciado em $INICIO" >> $LOG
 
 
 #CRIA O BACKUP
